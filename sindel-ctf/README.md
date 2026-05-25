@@ -1,7 +1,7 @@
 # SINDEL: Shadow Intelligence Network & Data Extraction Laboratory
 
 ![SINDEL](app/public/images/sindel.png)
-![SINDEL Dashboard](app/public/image2.jpeg)
+![SINDEL Dashboard](image2.jpeg)
 
 **SINDEL Shadow Intelligence Network & Data Extraction Laboratory** is a purpose-built Capture The Flag (CTF) environment designed by **Nana Sei Anyemedu** for **Hive Consult**. Unlike general-purpose penetration test labs, SINDEL focuses exclusively on **Insecure Direct Object Reference (IDOR)** vulnerabilities, covering all 10 recognised IDOR attack categories across 18 distinct endpoints.
 
