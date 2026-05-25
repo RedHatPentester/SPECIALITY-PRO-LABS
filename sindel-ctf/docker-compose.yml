@@ -1,0 +1,24 @@
+name: sindel-ctf
+
+services:
+  sindel:
+    build: ./app
+    container_name: sindel-ctf
+    ports:
+      - "8888:3000"
+    volumes:
+      - sindel-data:/app/data
+      - sindel-uploads:/app/uploads
+    networks:
+      - shadownet
+    restart: unless-stopped
+
+volumes:
+  sindel-data:
+    name: sindel-ctf_data
+  sindel-uploads:
+    name: sindel-ctf_uploads
+
+networks:
+  shadownet:
+    driver: bridge
